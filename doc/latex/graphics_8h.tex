@@ -1,0 +1,82 @@
+\hypertarget{graphics_8h}{}\section{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/graphics.h File Reference}
+\label{graphics_8h}\index{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/graphics.\+h@{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/graphics.\+h}}
+
+
+Functions for displaying 2D projections and 3D Model.  
+
+
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$G\+L/glut.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}Point.\+h\char`\"{}}\\*
+Include dependency graph for graphics.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{graphics_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{graphics_8h_aa3f963682e4c9f411f3c9b509c53e7c9}{Display2\+D\+Proj} (vector$<$ \hyperlink{structpoint2D}{point2D} $>$ points, vector$<$ vector$<$ int $>$$>$ adj\+List)
+\begin{DoxyCompactList}\small\item\em Display 2D projection. \end{DoxyCompactList}\item 
+void \hyperlink{graphics_8h_a141648bb03759e0fb18d035fca6278ca}{Display3D} (vector$<$ \hyperlink{structpoint3D}{point3D} $>$ points, vector$<$ vector$<$ int $>$$>$ adj\+List)
+\begin{DoxyCompactList}\small\item\em Display 3D model. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Functions for displaying 2D projections and 3D Model. 
+
+\begin{DoxyAuthor}{Author}
+Mira Kabra 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+04-\/03-\/2018 
+\end{DoxyDate}
+\begin{DoxyNote}{Note}
+The current proposed structure. Implementation yet to be started. 
+\end{DoxyNote}
+
+
+\subsection{Function Documentation}
+\index{graphics.\+h@{graphics.\+h}!Display2\+D\+Proj@{Display2\+D\+Proj}}
+\index{Display2\+D\+Proj@{Display2\+D\+Proj}!graphics.\+h@{graphics.\+h}}
+\subsubsection[{\texorpdfstring{Display2\+D\+Proj(vector$<$ point2\+D $>$ points, vector$<$ vector$<$ int $>$$>$ adj\+List)}{Display2DProj(vector< point2D > points, vector< vector< int >> adjList)}}]{\setlength{\rightskip}{0pt plus 5cm}void Display2\+D\+Proj (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf point2D} $>$}]{points, }
+\item[{vector$<$ vector$<$ int $>$$>$}]{adj\+List}
+\end{DoxyParamCaption}
+)}\hypertarget{graphics_8h_aa3f963682e4c9f411f3c9b509c53e7c9}{}\label{graphics_8h_aa3f963682e4c9f411f3c9b509c53e7c9}
+
+
+Display 2D projection. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em points} & list of 2D points \\
+\hline
+{\em adj\+List} & Shows the connectivity in terms of point number \\
+\hline
+\end{DoxyParams}
+\index{graphics.\+h@{graphics.\+h}!Display3D@{Display3D}}
+\index{Display3D@{Display3D}!graphics.\+h@{graphics.\+h}}
+\subsubsection[{\texorpdfstring{Display3\+D(vector$<$ point3\+D $>$ points, vector$<$ vector$<$ int $>$$>$ adj\+List)}{Display3D(vector< point3D > points, vector< vector< int >> adjList)}}]{\setlength{\rightskip}{0pt plus 5cm}void Display3D (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf point3D} $>$}]{points, }
+\item[{vector$<$ vector$<$ int $>$$>$}]{adj\+List}
+\end{DoxyParamCaption}
+)}\hypertarget{graphics_8h_a141648bb03759e0fb18d035fca6278ca}{}\label{graphics_8h_a141648bb03759e0fb18d035fca6278ca}
+
+
+Display 3D model. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em points} & list of 3D points \\
+\hline
+{\em adj\+List} & Shows connectivity in terms of point number \\
+\hline
+\end{DoxyParams}

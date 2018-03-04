@@ -1,0 +1,68 @@
+\begin{theindex}
+
+  \item {/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/\+Point.\+h}, 
+		\hyperpage{11}
+  \item {/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/graphics.\+h}, 
+		\hyperpage{7}
+  \item {/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/linalg.\+h}, 
+		\hyperpage{8}
+  \item {/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/main.\+cpp}, 
+		\hyperpage{10}
+  \item {/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/util.\+h}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {Build3D}
+    \subitem {linalg.\+h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Display2\+D\+Proj}
+    \subitem {graphics.\+h}, \hyperpage{8}
+  \item {Display3D}
+    \subitem {graphics.\+h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {graphics.\+h}
+    \subitem {Display2\+D\+Proj}, \hyperpage{8}
+    \subitem {Display3D}, \hyperpage{8}
+
+  \indexspace
+
+  \item {linalg.\+h}
+    \subitem {Build3D}, \hyperpage{9}
+    \subitem {Projection}, \hyperpage{10}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\+cpp}, \hyperpage{11}
+  \item {main.\+cpp}
+    \subitem {main}, \hyperpage{11}
+
+  \indexspace
+
+  \item {point2D}, \hyperpage{5}
+  \item {point3D}, \hyperpage{5}
+  \item {Projection}
+    \subitem {linalg.\+h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {read2\+D\+Proj}
+    \subitem {util.\+h}, \hyperpage{13}
+  \item {read3\+D\+Model}
+    \subitem {util.\+h}, \hyperpage{14}
+  \item {read\+Adjacency\+List}
+    \subitem {util.\+h}, \hyperpage{14}
+
+  \indexspace
+
+  \item {util.\+h}
+    \subitem {read2\+D\+Proj}, \hyperpage{13}
+    \subitem {read3\+D\+Model}, \hyperpage{14}
+    \subitem {read\+Adjacency\+List}, \hyperpage{14}
+
+\end{theindex}

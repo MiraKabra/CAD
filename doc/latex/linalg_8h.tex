@@ -1,0 +1,86 @@
+\hypertarget{linalg_8h}{}\section{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/linalg.h File Reference}
+\label{linalg_8h}\index{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/linalg.\+h@{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/linalg.\+h}}
+
+
+Linear Algebraic Transformations using Eigen3.  
+
+
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$Eigen/\+Dense$>$}\\*
+{\ttfamily \#include \char`\"{}Point.\+h\char`\"{}}\\*
+Include dependency graph for linalg.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=281pt]{linalg_8h__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{structpoint2D}{point2D} $>$ \hyperlink{linalg_8h_a65bebcda9de746fcb8f827b8200c371a}{Projection} (vector$<$ \hyperlink{structpoint3D}{point3D} $>$ points, \hyperlink{structpoint3D}{point3D} perpendicular)
+\item 
+vector$<$ \hyperlink{structpoint3D}{point3D} $>$ \hyperlink{linalg_8h_a7c4019b7a10749a52af8ce01e6b174b0}{Build3D} (vector$<$ \hyperlink{structpoint2D}{point2D} $>$ proj\+List1, vector$<$ \hyperlink{structpoint2D}{point2D} $>$ proj\+List2, \hyperlink{structpoint2D}{point2D} Ori1\mbox{[}3\mbox{]}, \hyperlink{structpoint2D}{point2D} Ori2\mbox{[}3\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Linear Algebraic Transformations using Eigen3. 
+
+\begin{DoxyAuthor}{Author}
+Mira Kabra 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+04-\/03-\/2018 
+\end{DoxyDate}
+\begin{DoxyNote}{Note}
+The current proposed structure. Implementation yet to be started. 
+\end{DoxyNote}
+
+
+\subsection{Function Documentation}
+\index{linalg.\+h@{linalg.\+h}!Build3D@{Build3D}}
+\index{Build3D@{Build3D}!linalg.\+h@{linalg.\+h}}
+\subsubsection[{\texorpdfstring{Build3\+D(vector$<$ point2\+D $>$ proj\+List1, vector$<$ point2\+D $>$ proj\+List2, point2\+D Ori1[3], point2\+D Ori2[3])}{Build3D(vector< point2D > projList1, vector< point2D > projList2, point2D Ori1[3], point2D Ori2[3])}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf point3D}$>$ Build3D (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf point2D} $>$}]{proj\+List1, }
+\item[{vector$<$ {\bf point2D} $>$}]{proj\+List2, }
+\item[{{\bf point2D}}]{Ori1\mbox{[}3\mbox{]}, }
+\item[{{\bf point2D}}]{Ori2\mbox{[}3\mbox{]}}
+\end{DoxyParamCaption}
+)}\hypertarget{linalg_8h_a7c4019b7a10749a52af8ce01e6b174b0}{}\label{linalg_8h_a7c4019b7a10749a52af8ce01e6b174b0}
+For evaluating 3D points from the projected points on two different planes 
+\begin{DoxyParams}{Parameters}
+{\em set\+One} & list of 2D projections of points on to the first plane \\
+\hline
+{\em set\+Two} & list of 2D projections of points on to the second plane \\
+\hline
+{\em Ori1} & array containing projection of 3D points on the first plane \\
+\hline
+{\em Ori2} & array containing projection of 3D points on the second plane \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+will return the evaluated 3D points corresponding to the projected points 
+\end{DoxyReturn}
+\index{linalg.\+h@{linalg.\+h}!Projection@{Projection}}
+\index{Projection@{Projection}!linalg.\+h@{linalg.\+h}}
+\subsubsection[{\texorpdfstring{Projection(vector$<$ point3\+D $>$ points, point3\+D perpendicular)}{Projection(vector< point3D > points, point3D perpendicular)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf point2D}$>$ Projection (
+\begin{DoxyParamCaption}
+\item[{vector$<$ {\bf point3D} $>$}]{points, }
+\item[{{\bf point3D}}]{perpendicular}
+\end{DoxyParamCaption}
+)}\hypertarget{linalg_8h_a65bebcda9de746fcb8f827b8200c371a}{}\label{linalg_8h_a65bebcda9de746fcb8f827b8200c371a}
+For evaluating the projection of 3D points on specified plane 
+\begin{DoxyParams}{Parameters}
+{\em points} & list of 3D points \\
+\hline
+{\em perpendicular} & perpendicular to the plane \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of 2D projections of points on to the plane 
+\end{DoxyReturn}

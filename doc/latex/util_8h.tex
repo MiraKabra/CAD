@@ -1,0 +1,92 @@
+\hypertarget{util_8h}{}\section{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/util.h File Reference}
+\label{util_8h}\index{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/util.\+h@{/home/mira/\+C\+Lion\+Projects/\+C\+A\+D/util.\+h}}
+
+
+Utility Functions.  
+
+
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include \char`\"{}Point.\+h\char`\"{}}\\*
+Include dependency graph for util.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{util_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{util_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \hyperlink{structpoint2D}{point2D} $>$ \hyperlink{util_8h_a4eb7d175f2a2b97a360a255aa7679f7a}{read2\+D\+Proj} (string proj\+File\+Path)
+\item 
+vector$<$ \hyperlink{structpoint3D}{point3D} $>$ \hyperlink{util_8h_afe208903c2d009b7403516d6e6197a69}{read3\+D\+Model} (string model\+File\+Path)
+\item 
+vector$<$ vector$<$ int $>$ $>$ \hyperlink{util_8h_ad51698f50454d58d684de735b12556e5}{read\+Adjacency\+List} (string adj\+File\+Path)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Utility Functions. 
+
+\begin{DoxyAuthor}{Author}
+Mira Kabra 
+\end{DoxyAuthor}
+\begin{DoxyNote}{Note}
+To be implemented. 
+\end{DoxyNote}
+
+
+\subsection{Function Documentation}
+\index{util.\+h@{util.\+h}!read2\+D\+Proj@{read2\+D\+Proj}}
+\index{read2\+D\+Proj@{read2\+D\+Proj}!util.\+h@{util.\+h}}
+\subsubsection[{\texorpdfstring{read2\+D\+Proj(string proj\+File\+Path)}{read2DProj(string projFilePath)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf point2D}$>$ read2\+D\+Proj (
+\begin{DoxyParamCaption}
+\item[{string}]{proj\+File\+Path}
+\end{DoxyParamCaption}
+)}\hypertarget{util_8h_a4eb7d175f2a2b97a360a255aa7679f7a}{}\label{util_8h_a4eb7d175f2a2b97a360a255aa7679f7a}
+Utility function for reading projection specification from given file. 
+\begin{DoxyParams}{Parameters}
+{\em proj\+File\+Path} & path to file containing projection specification \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of 2D coordinates of points 
+\end{DoxyReturn}
+\index{util.\+h@{util.\+h}!read3\+D\+Model@{read3\+D\+Model}}
+\index{read3\+D\+Model@{read3\+D\+Model}!util.\+h@{util.\+h}}
+\subsubsection[{\texorpdfstring{read3\+D\+Model(string model\+File\+Path)}{read3DModel(string modelFilePath)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf point3D}$>$ read3\+D\+Model (
+\begin{DoxyParamCaption}
+\item[{string}]{model\+File\+Path}
+\end{DoxyParamCaption}
+)}\hypertarget{util_8h_afe208903c2d009b7403516d6e6197a69}{}\label{util_8h_afe208903c2d009b7403516d6e6197a69}
+Utility function for reading 3D model specification from given file. 
+\begin{DoxyParams}{Parameters}
+{\em model\+File\+Path} & path to file containing projection specification \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of 3D coordinates of points 
+\end{DoxyReturn}
+\index{util.\+h@{util.\+h}!read\+Adjacency\+List@{read\+Adjacency\+List}}
+\index{read\+Adjacency\+List@{read\+Adjacency\+List}!util.\+h@{util.\+h}}
+\subsubsection[{\texorpdfstring{read\+Adjacency\+List(string adj\+File\+Path)}{readAdjacencyList(string adjFilePath)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$vector$<$int$>$ $>$ read\+Adjacency\+List (
+\begin{DoxyParamCaption}
+\item[{string}]{adj\+File\+Path}
+\end{DoxyParamCaption}
+)}\hypertarget{util_8h_ad51698f50454d58d684de735b12556e5}{}\label{util_8h_ad51698f50454d58d684de735b12556e5}
+Utility function for reading adjacency list from given file. 
+\begin{DoxyParams}{Parameters}
+{\em adj\+File\+Path} & path to file containing projection specification \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+adjacency list 
+\end{DoxyReturn}
